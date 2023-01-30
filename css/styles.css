@@ -3,6 +3,7 @@
   --color-secondary: #434455;
   --color-accent: #404bbf;
   --color-subtitle-background: #e7e9fc;
+  --color-button: #f4f4fd;
   --color-dark: #2e2f42;
   --color-inverted: #fefefe;
   --color-white: #ffffff;
@@ -324,7 +325,7 @@ p {
 }
 
 .portfolio-button-all {
-  background-color: var(--color-subtitle-background);
+  background-color: var(--color-button);
   color: var(--button);
   font-family: inherit;
   cursor: pointer;
