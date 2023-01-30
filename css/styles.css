@@ -477,6 +477,8 @@ p {
 
 .portfolio-box {
   padding: 32px 0;
+  border: 1px solid #e7e9fc;
+  border-top: none;
 }
 
 .list.link {
@@ -541,14 +543,6 @@ p {
   line-height: 1.17;
   margin-top: 100px;
   text-transform: uppercase;
-}
-
-ul,
-ol {
-  list-style-type: none;
-  list-style: none;
-  padding-left: 0;
-  margin: 0;
 }
 
 .footer_text {
