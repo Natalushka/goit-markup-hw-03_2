@@ -78,17 +78,23 @@ img {
 .header {
   background-color: var(--basic-bcg-color);
 }
+
 .header-box {
   display: flex;
 }
+
+.border-buttom {
+  border: 1px solid var(--color-subtitle-background);
+  border-top: none;
+}
+
 .site-nav {
   display: flex;
   gap: 40px;
   margin-left: 76px;
-  padding-top: 24px;
-  padding-bottom: 24px;
 }
 .nav-link {
+  display: block;
   color: var(--color-dark);
   font-family: "Roboto";
   font-style: normal;
@@ -332,6 +338,7 @@ img {
 
 .main-section {
   padding-top: 96px;
+  padding-bottom: 48px;
 }
 
 .button.list {
@@ -423,14 +430,15 @@ img {
 }
 
 .team-card {
-  width: 264px;
-  height: 380px;
-  left: 156px;
-  top: 1780px;
   background-color: var(--color-white);
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
   border-radius: 0px 0px 4px 4px;
+}
+
+.person {
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 
 .team-title {
@@ -449,17 +457,18 @@ img {
   display: flex;
   gap: 24px;
   margin-bottom: 0;
+  margin: 0 auto;
 }
 
 .team-worker {
   background-color: var(--color-white);
-  margin-top: 32px;
   color: var(--color-dark);
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   text-align: center;
+  margin: 0 auto;
 }
 
 .team-job {
@@ -468,19 +477,18 @@ img {
   font-size: 16px;
   line-height: 1.2;
   text-align: center;
-  margin-top: 8px;
-  margin-bottom: 0;
+  padding-top: 8px;
+  margin: 0 auto;
 }
 
 .portfolio.list {
   display: flex;
   gap: 48px 24px;
-  margin-bottom: 120px;
   flex-wrap: wrap;
 }
 
 .portfolio-box {
-  padding: 32px 0;
+  padding: 32px 16px;
   border: 1px solid var(--color-subtitle-background);
   border-top: none;
 }
